@@ -1,6 +1,6 @@
 # Gecko-Binary-Classifier
 
-A binary classifier that is able to differentiate between the Gold Dust Day Gecko and the Giant Day Gecko, through the use of transfer learning on a pre-trained ResNet18 model. This classifier is able to correctly classify samples roughly 95% of the time.
+A binary classifier that is able to differentiate between the Gold Dust Day Gecko and the Giant Day Gecko, through the use of transfer learning on a pre-trained ResNet18 model. This classifier is able to correctly classify samples roughly 96% of the time.
 
 <h2>Description of Gecko Species</h2>
 <p>Gold Dust Day Geckos have bodies that are usually different shades of green (sometimes blue), with three orangish red bars that go across the head, and three more orangish red bars that go along the body of the animal. Gold Dust Day Geckos are also characterized by blue skin on the upper part of their eyes and the red and gold specks that run across their body. Giant Day Geckos have bodies that are usually bright green (sometimes bluish green) and are littered with red dots or bars. A red stripe extends from the nostril of the gecko to the eye. Both species of gecko are from northern Madagascar and are commonly kept as pets.<p/>
@@ -34,9 +34,9 @@ After processing both datasets, I ended up rejecting 180 images from the giant d
 After rejecting the images, I chose to manually refill the datasets back up to 500, trying my best to avoid adding duplicates. I used google images for this.
 
 <h2>Training and Testing</h2>
- <p>To classify the datasets, I used a pre-trained ResNet18 convolutional neural network model, which was modified to generate only 2 outputs. For this project, I used cross entropy loss and a stochastic gradient descent optimizer. Code was then written to evaluate and test the model. The function run_all runs the training and testing code on the dataset for a number of epochs, which then returns the accuracy and loss for that epoch.<p/>
+ <p>To classify the datasets, I used a pre-trained ResNet18 convolutional neural network model, which was modified to generate only 2 outputs. For this project, I used cross entropy loss and a stochastic gradient descent optimizer. Code was then written to evaluate and test the model.<p/>
  
- <p>
+ <p> Using the run_all function, which returns the accuracy and loss of the training and testing runs, I was able to achieve a test accuracy of roughly 96% after 8 epochs. <p/>
 
   
  <h2>Trying it Yourself</h2>
