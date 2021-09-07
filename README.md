@@ -34,4 +34,8 @@ After processing both datasets, I ended up rejecting 180 images from the giant d
 After rejecting the images, I chose to manually refill the datasets back up to 500, trying my best to avoid adding duplicates. I used google images for this.
 
 <h2>Training and Testing<h2/>
- <p>
+ <p>To classify the datasets, I used a pre-trained ResNet18 convolutional neural network model, which was modified to generate only 2 outputs. For this project, I used cross entropy loss and a stochastic gradient descent optimizer. Code was then written to go through each sample in the dataset and make a prediction
+
+  
+ <h2>Trying it Yourself<h2/>
+  <p>
