@@ -1,6 +1,6 @@
 # Gecko-Binary-Classifier
 
-A binary classifier that is able to differentiate between the Gold Dust Day Gecko and the Giant Day Gecko, through the use of transfer learning on a pre-trained ResNet18 model. This classifier is able to correctly classify samples roughly 96% of the time.
+A binary classifier that is able to differentiate between the Gold Dust Day Gecko and the Giant Day Gecko, through the use of transfer learning on a pre-trained ResNet18 model. This classifier is able to correctly classify samples roughly 95% of the time.
 
 <h2>Description of Gecko Species</h2>
 <p>Gold Dust Day Geckos have bodies that are usually different shades of green (sometimes blue), with three orangish red bars that go across the head, and three more orangish red bars that go along the body of the animal. Gold Dust Day Geckos are also characterized by blue skin on the upper part of their eyes and the red and gold specks that run across their body. Giant Day Geckos have bodies that are usually bright green (sometimes bluish green) and are littered with red dots or bars. A red stripe extends from the nostril of the gecko to the eye. Both species of gecko are from northern Madagascar and are commonly kept as pets.<p/>
